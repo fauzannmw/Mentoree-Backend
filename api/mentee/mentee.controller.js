@@ -38,7 +38,7 @@ module.exports = {
             
             if(result.length > 0) return ERROR(res, 409, "Email already exist");
             req.body.password = hashSync(req.body.password, salt);
-            req.body.nama = req.body.nama_depan + ' ' + req.body.nama_belakang;
+            // req.body.nama = req.body.nama_depan + ' ' + req.body.nama_belakang;
             postMentee(req.body, (errors, results) => {
                 if(errors) return ERROR(res, 500, errors);
                 

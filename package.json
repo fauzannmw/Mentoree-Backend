@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irvanhanif/Mentoree-Backend.git"
+    "url": "git+https://github.com/fauzannmw/Mentoree-Backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/irvanhanif/Mentoree-Backend/issues"
+    "url": "https://github.com/fauzannmw/Mentoree-Backend/issues"
   },
-  "homepage": "https://github.com/irvanhanif/Mentoree-Backend#readme",
+  "homepage": "https://github.com/fauzannmw/Mentoree-Backend#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
